@@ -36,7 +36,7 @@ def rot_x(alpha):
 
 
 def rot_y(beta):
-    rot = np.array([[math.cos(beta), 0, -math.sin(beta), 0],
+    rot = np.array([[math.cos(beta), 0, math.sin(beta), 0],
                     [0, 1, 0, 0],
                     [-math.sin(beta), 0, math.cos(beta), 0],
                     [0, 0, 0, 1]])
